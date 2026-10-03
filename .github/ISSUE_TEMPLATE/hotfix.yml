@@ -1,0 +1,39 @@
+name: Hotfix
+description: Correção urgente de um problema já presente em produção.
+labels: ["hotfix"]
+body:
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      description: Descreva o problema em produção e o seu impacto atual.
+    validations:
+      required: true
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+      description: Qual o comportamento correto esperado após a correção urgente.
+    validations:
+      required: true
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição
+      description: Descreva o problema, o impacto em produção e como reproduzi-lo. Lembre-se de que o Hotfix parte de main e deve ser propagado para dev.
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Critérios de Aceitação
+      description: Lista verificável que confirma a correção e a propagação para dev.
+    validations:
+      required: true
+  - type: textarea
+    id: observacoes
+    attributes:
+      label: Observações / Restrições
+      description: Evidências, riscos ou restrições relevantes (opcional).
+    validations:
+      required: false

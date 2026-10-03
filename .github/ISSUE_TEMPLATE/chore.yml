@@ -1,0 +1,39 @@
+name: Chore
+description: Tarefa de manutenção que não altera funcionalidade diretamente.
+labels: ["chore"]
+body:
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      description: Motivação da manutenção (documentação, organização, configuração, etc.).
+    validations:
+      required: true
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+      description: O que a manutenção deve deixar em melhor estado.
+    validations:
+      required: true
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição
+      description: Descreva o que será ajustado e o escopo da manutenção.
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Critérios de Aceitação
+      description: Lista verificável do que define a manutenção como concluída.
+    validations:
+      required: true
+  - type: textarea
+    id: observacoes
+    attributes:
+      label: Observações / Restrições
+      description: Dependências, restrições ou pontos de atenção relevantes (opcional).
+    validations:
+      required: false

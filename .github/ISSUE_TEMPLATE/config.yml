@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Playbook do Processo
+    url: https://github.com/SoftprimeDev/Softprime-ProcessoSoftware/tree/main/playbook
+    about: Consulte o playbook antes de abrir uma Issue.

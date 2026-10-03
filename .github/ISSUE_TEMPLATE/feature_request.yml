@@ -1,0 +1,39 @@
+name: Feature
+description: Solicitar uma nova funcionalidade ou melhoria.
+labels: ["feature"]
+body:
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      description: Situação atual e motivação para esta feature.
+    validations:
+      required: true
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+      description: O que se pretende alcançar com esta feature.
+    validations:
+      required: true
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição
+      description: Descreva o comportamento esperado e o escopo da funcionalidade.
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Critérios de Aceitação
+      description: Lista verificável do que define "pronto" para esta feature.
+    validations:
+      required: true
+  - type: textarea
+    id: observacoes
+    attributes:
+      label: Observações / Restrições
+      description: Dependências, restrições ou pontos de atenção relevantes (opcional).
+    validations:
+      required: false
