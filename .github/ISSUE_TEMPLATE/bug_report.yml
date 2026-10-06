@@ -1,6 +1,6 @@
 name: Bug/Fix
 description: Relatar um defeito no fluxo normal de desenvolvimento.
-labels: ["bug"]
+labels: ["fix"]
 body:
   - type: textarea
     id: contexto
